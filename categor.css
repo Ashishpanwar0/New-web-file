@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head1{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    margin-top: -110px;
+    z-index: 999;
+}
+.head1a{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.head1b{
+    margin-left: 60px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.head1b a{
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(173, 216, 230, 0.199);
+    border-radius: 80px;
+}
+.head1c{
+    margin-top: 45px;
+}
+.head1c a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.head1d{
+    margin-top: 42px;
+    margin-left: 20px;
+}
+.head1d a{
+    font-size: 25px;
+    margin-left: 40px;
+}
+.head2{
+    background-image: url(img/breadcrumb-bg.jpg);
+    height: 530px;
+    margin-top: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.head2a{
+    margin-top: 130px;
+    margin-left: 80px;
+}
+.head2b{
+    margin-top: 160px;
+    margin-left: 150px;
+    width: 45%;
+}
+.head2b h1{
+    font-size: 50px;
+}
+.head2b p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.head2b input{
+    padding: 20px;
+    margin-top: 20px;
+    width: 71%;
+    border-radius: 30px;
+    border-style: none;
+}
+.new{
+    margin-top: -52px;
+    margin-left: 340px;
+}
+.head2b button{
+    padding: 8px;
+    width: 30%;
+    border-radius: 30px;
+    border-style: none;
+    background-color: blue;
+}
+.head2b button a{
+    text-decoration: none;
+    color: white;
+}
+.head2c{
+    margin-top: 430px;
+}
+
+.head4{
+    display: flex;
+}
+.head4a{
+    border: 1px solid black;
+    margin-left: 75px;
+    width: 18%;
+    height: 190px;
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px black;
+}
+.head4 p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 50px;
+    border: 1px solid white;
+    width: 28%;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+}
+.head4a h1{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.head4 h2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.616);
+    margin-left: 20px;
+}
+
+
+.head5{
+    display: flex;
+    border: 1px solid white;
+    margin-top: 100px;
+    background-color: #F3F4F8;
+}
+.head5a{
+    margin-left: 130px;
+    width: 20%;
+}
+.head5a h3{
+    font-size: 55px;
+    margin-top: 30px;
+}
+.head5a p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 30px;
+}
+
+.head5b{
+        margin-top: 45px;
+        margin-left: 50px;
+}
+.head5b h2{
+    margin-left: 28px;
+}
+.head5b ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.head5b a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+}
+.head5b a:hover{
+    color: blue;
+}
+
+.head5b{
+    margin-left: 30px;
+    text-align: justify;
+}
+.head5c{
+    margin-left: 100px;
+    width: 20%;
+    margin-top: 50px;
+}
+.head5c p{
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 30px;
+}
+.head5c input{
+    padding: 18px;
+    margin-top: 30px;
+    width: 110%;
+    background-color: white;
+}
+.an{
+    width: 40%;
+    padding: 5px;
+    margin-top: -58px;
+    margin-left: 190px;
+}
+.head5c button{
+    padding: 8px;
+    width: 90%;
+    background-color: blue;
+    border-style: none;
+    border-radius: 10px;
+}
+.head5c button a{
+    text-decoration: none;
+    color: white;
+}
+.head5c i{
+    font-size: 40px;
+    margin-left: 10px;
+    color: black;
+    margin-top: 30px;
+}
+.headand{
+    border: 1px solid white;
+    background-color: #F3F4F8;
+}
+.headand h4{
+    margin-left: 500px;
+    margin-top: 20px;
+}

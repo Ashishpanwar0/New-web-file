@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head1{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    width: 100%;
+    margin-top: -80px;
+    position: fixed;
+    z-index: 999;
+}
+.head1a{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.head1b{
+    margin-left: 60px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.head1b a{
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(173, 216, 230, 0.199);
+    border-radius: 80px;
+}
+.head1c{
+    margin-top: 45px;
+}
+.head1c a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.head1d{
+    margin-top: 42px;
+    margin-left: 20px;
+}
+.head1d a{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+
+.head2{
+    background-image: url(img/breadcrumb-bg.jpg);
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.head2a{
+    display: flex;
+    margin-left: 150px;
+}
+.head2a p{
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.head2a i{
+    color: blue;
+}
+.head2 h1{
+    margin-left: 175px;
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+.head3{
+    display: flex;
+    margin-top: 100px;
+}
+.head3a{
+    border: 1px solid black;
+    width: 25%;
+    height: 550px;
+    margin-left: 80px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.head3a p{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+.head3a h3{
+    margin-left: 20px;
+    font-size: 25px;
+}
+#img{
+    margin-left: 10px;
+}
+.head3a button{
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 25px;
+    width: 40%;
+    border-color: rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+}
+.head3a button a{
+    text-decoration: none;
+    color: black;
+}
+.head3a button i{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head5{
+    display: flex;
+    border: 1px solid white;
+    margin-top: 100px;
+    height: 450px;
+    background-color: #F3F4F8;
+}
+.head5a{
+    margin-left: 130px;
+    width: 20%;
+}
+.head5a h3{
+    font-size: 55px;
+    margin-top: 30px;
+}
+.head5a p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 30px;
+}
+
+.head5b{
+        margin-top: 45px;
+        margin-left: 50px;
+}
+.head5b h2{
+    margin-left: 28px;
+}
+.head5b ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.head5b a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+}
+.head5b a:hover{
+    color: blue;
+}
+
+.head5b{
+    margin-left: 30px;
+    text-align: justify;
+}
+.head5c{
+    margin-left: 100px;
+    width: 20%;
+    margin-top: 50px;
+}
+.head5c p{
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 30px;
+}
+.head5c input{
+    padding: 18px;
+    margin-top: 30px;
+    width: 110%;
+    background-color: white;
+}
+.an{
+    width: 40%;
+    padding: 5px;
+    margin-top: -58px;
+    margin-left: 190px;
+}
+.head5c button{
+    padding: 8px;
+    width: 90%;
+    background-color: blue;
+    border-style: none;
+    border-radius: 10px;
+}
+.head5c button a{
+    text-decoration: none;
+    color: white;
+}
+.head5c i{
+    font-size: 40px;
+    margin-left: 10px;
+    color: black;
+    margin-top: 30px;
+}
+
+.headand{
+    border: 1px solid white;
+    background-color: #F3F4F8;
+}
+.headand h4{
+    margin-left: 500px;
+    margin-top: 20px;
+}

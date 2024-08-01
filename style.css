@@ -1,0 +1,681 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head1{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    z-index: 999;
+    background-size: cover;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    margin-top: -100px;
+}
+.head1a{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.head1b{
+    margin-left: 60px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.head1b a{
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(173, 216, 230, 0.199);
+    border-radius: 80px;
+}
+.head1c{
+    margin-top: 45px;
+}
+.head1c a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.head1d{
+    margin-top: 42px;
+    margin-left: 20px;
+}
+.head1d a{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.head2{
+    background-image: url(img/pngtree-energetic-university-student-engaged-with-laptop-3d-illustration-image_13571921.png);
+    height: 780px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.head2a{
+    display: flex;
+    width: 100%;
+}
+.heada{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 50%;
+}
+.heada h4{
+    font-size: 40px;
+    color: blue;
+    text-shadow: 5px 5px 5px black;
+}
+.heada h1{
+    font-size: 85px;
+    color: black;
+    margin-top: 20px;
+}
+.heada h3{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.753);
+}
+.heada button{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 255, 0.877);
+    border: 1px solid rgba(255, 255, 255, 0.089);
+}
+.heada a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.headb{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 30%;
+    height: 650px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 70px;
+    box-shadow: 15px 15px 15px black;
+}
+.headb img{
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.headb h4{
+    margin-left: 10px;
+}
+.headb h5{
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid white;
+    width: 37%;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+}
+.headb h2{
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 80%;
+}
+.headb table{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.headb table td{
+    padding-left: 130px;
+}
+.headb button{
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.808);
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 60%;
+}
+.headb button a{
+    text-decoration: none;
+    color: white;
+}
+
+.head3 h2{
+    margin-left: 600px;
+    color: rgba(0, 0, 255, 0.651);   
+    font-size: 20px;
+    margin-top: 20px;
+}
+.head3 h1{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.head4{
+    display: flex;
+}
+.head4a{
+    border: 1px solid black;
+    margin-left: 75px;
+    width: 18%;
+    height: 190px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+.head4 p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 50px;
+    border: 1px solid white;
+    width: 28%;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+}
+.head4a h1{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.head4 h2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.616);
+    margin-left: 20px;
+}
+
+.head5{
+    display: flex;
+    margin-left: 380px;
+    margin-top: 90px;
+    width: 40%;
+    height: 85px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: rgba(173, 216, 230, 0.712);
+}
+.head5 img{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.head5 p{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.head5 button{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    width: 90%;
+    background-color: orange;
+    border: 1px solid rgba(255, 255, 255, 0.068);
+    border-radius: 30px;
+}
+.head5 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.head6{
+    display: flex;
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 255, 0.678);
+    margin-top: 80px;
+    height: 90px;
+}
+.head6a{
+    display: flex;
+    height: 50px;
+    width: 17%;
+    margin-left: 85px;
+}
+.head6a h1{
+    color: white;
+    margin-top: 20px;
+}
+.head6a p{
+        color: white;   
+        margin-left: 30px;
+        margin-top: 20px;
+}
+.head6a h6{
+    margin-left: 30px;
+    margin-top: -13px;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.head7{
+    margin-left: 80px;
+    margin-top: 100px;
+    font-size: 15px;
+    color: rgba(0, 0, 255, 0.863);
+}
+
+.head8{
+    display: flex;
+}
+.head8a h1{
+    margin-left: 80px;
+    color: black;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.head8b{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.692);
+}
+.head8c{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.head8 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.555);
+}
+.head8 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.head9{
+    display: flex;
+}
+.head9a{
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 20px;
+    width: 26%;
+    height: 580px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 70px;  
+}
+.head9a img{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.head9a h4{
+    margin-left: 25px;
+    font-size: 15px;
+}
+.head9a h5{
+    margin-left: 25px;
+    margin-top: 5px;
+    color: black;
+    border: 1px solid white;
+    width: 37%;
+}
+.head9a h2{
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 80%;
+}
+.head9a table{
+    margin-left: 30px;
+}
+.head9a table td{
+    padding-left: 130px;
+}
+.head9a button{
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 255, 0.808);
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 60%;
+}
+.head9a button a{
+    text-decoration: none;
+    color: white;
+}
+.head10{
+    display: flex;
+}
+
+
+.head11{
+    display: flex;
+    margin-left: 290px;
+    margin-top: 60px;
+    width: 55%;
+    height: 85px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: rgba(173, 216, 230, 0.712);
+}
+.head11 img{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.head11 p{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.head11 button{
+    margin-top: 25px;
+    margin-left: 110px;
+    padding: 10px;
+    width: 90%;
+    background-color: orange;
+    border: 1px solid rgba(255, 255, 255, 0.068);
+    border-radius: 30px;
+}
+.head11 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.head12{
+    background-color: rgba(135, 206, 250, 0.151);
+    border: 1px solid white;
+    margin-top: 100px;
+    height: 1200px;
+}
+.head12a p{
+        text-align: center;
+        margin-top: 50px;
+        color: rgba(0, 0, 255, 0.747);
+        font-size: 25px;
+}
+.head12 h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.836);
+    margin-top: -5px;
+}
+
+.head12b{
+    display: flex;
+    border: 1px solid white;
+    width: 70%;
+    height: 400px;
+    margin-left: 200px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 50px 50px 50px white;
+}
+.head12b img{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.head12b p{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.head12c table th{
+    padding-left: 50px;
+}
+.head12c table td img{
+    margin-top: -5px;
+}
+.head12c td td{
+    padding-left: 20px;
+}
+.head12c h1{
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.head12c h1 a{
+    text-decoration: none;
+    color: black;
+}
+.headbut{
+    display: flex
+}
+.headbut img{
+    margin-top: -1px;
+    width: 50px;
+}
+.headbut button{
+    margin-top: 50px;
+    padding: 15px;
+    width: 180px;
+    margin-left: 70px;
+    background-color: rgba(0, 0, 255, 0.788);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.headbut button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.head13 p{
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 23px;
+    color: rgb(0, 0, 255);
+}
+.head13 h1{
+    margin-left: 100px;
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.904);
+    margin-top: -10px;
+}
+
+.head14{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: rgba(135, 206, 250, 0.041);
+    height: 570px;
+    box-shadow: 5px 5px 5px white;
+}
+.head14 img{
+    margin-left: 110px;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    margin-top: 40px;
+}
+
+.head14 h4{
+    margin-left: 95px;
+    font-size: 18px;
+    margin-top: -85px;
+    
+}
+.head14 a{
+    margin-left: 30px;
+    color: black;
+}
+.box{
+    width: 70%;
+    background-color: white;
+    height: 80px;
+    margin-left: 120px;
+}
+.head14 h1{
+    width: 60%;
+    text-align: center;
+    margin-left: 140px;
+    font-size: 30px;
+    color: black;
+    margin-top: -75px;
+}
+.head14 p{
+    width: 60%;
+    text-align: center;
+    margin-left: 140px;
+    font-size: 20px;
+    color:  black;
+}
+
+.head15{
+    display: flex;
+    margin-top: 80px;
+}
+.head15a{
+    width: 30%;
+    margin-left: 110px;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.head15a button{
+    border: 1px solid white;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 15px;
+    width: 60%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 255, 0.753);
+}
+.head15a a{
+    text-decoration: none;
+    color: white;
+}
+.head15a button:hover{
+    background-color: yellow;
+}
+.head15 img{
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.head16{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 255, 0.781);
+    margin-top: 50px;
+    height: 430px;
+}
+.head16a{
+    text-align: center;
+    margin-top: 50px;
+}
+.head16a h1{
+    font-size: 80px;
+    color: white;
+}
+.head16a p{
+    font-size: 30px;
+    color: white;
+}
+.head16a input{
+    font-size: 30px;
+    margin-top: 30px;
+    color: black;
+    height: 70px;
+    width: 900px;
+    border-radius: 40px;
+    border-style: none;
+}
+.head16n{
+    margin-top: -63px;
+    margin-left: 960px;
+}
+.head16n button{
+    padding: 10px;
+    width: 40%;
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgba(255, 255, 0, 0.705);
+}
+.head16n button a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.head16b{
+    display: flex;
+    margin-left: 250px;
+}
+.head16b p{
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 22px;
+    color: white;
+}
+
+.head17{
+    display: flex;
+}
+.head17a{
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.head17a p{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.head17a button{
+    margin-top: 10px;
+    padding: 12px;
+    width: 60%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.849);
+    border-color: white;
+    border-style: none;
+    border-radius: 50px;
+}
+.head17a button a{
+    color: white;
+    text-decoration: none;
+}
+.head17a button:hover{
+    background-color: yellow;
+}
+
+.head17b h4{
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.head17b ul li{
+    list-style: none;
+    margin-top: 18px;
+    text-align: justify;
+    margin-left: 100px;
+}
+.head17b a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.head17b a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.head18{
+    margin-left: 180px;
+    margin-top: -20px;
+}
+
+.head20{
+    display: flex;
+}
+.head20a{
+    margin-left: 140px;
+    font-size: 30px;
+}
+.head20a a{
+    margin-left: 30px;
+    color: black;
+}
+.head20b {
+    margin-left: 260px;
+    font-size: 20px;
+}
+.head20c{
+    width: 4%;
+    text-align: center;
+    margin-left: 300px;
+}

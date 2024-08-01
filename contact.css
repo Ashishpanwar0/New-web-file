@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head1{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    margin-top: -100px;
+}
+.head1a{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.head1b{
+    margin-left: 60px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.head1b a{
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(173, 216, 230, 0.199);
+    border-radius: 80px;
+}
+.head1c{
+    margin-top: 45px;
+}
+.head1c a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.head1d{
+    margin-top: 42px;
+    margin-left: 20px;
+}
+.head1d a{
+    font-size: 25px;
+    margin-left: 40px;
+}
+.head2{
+    background-image: url(img/breadcrumb-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: 100px;
+}
+.head2 h1{
+    padding-top: 10px;
+    font-size: 80px;
+    margin-left: 170px;
+}
+.head2 i{
+    margin-right: 20px;
+    font-size: 25px;
+    color: blue;
+}
+.head2 p{
+    font-size: 25px;
+    margin-top: 20px;
+    padding-top: 80px;
+    margin-left: 180px;
+    color: rgba(0, 0, 0, 0.849);
+}
+.head3{
+    border: 1px solid white;
+    margin-left: 410px;
+    width: 50%;
+    margin-top: 80px;
+}
+.head3 table{
+    margin-top: 30px;
+}
+.head3 h1{
+    font-size: 30px;
+}
+.head3 table tr th{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.head3 input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.head3 textarea{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.head3 button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 50%;
+    border-style: none;
+    background-color: rgba(0, 0, 255, 0.822);
+}
+.head3 button a{
+    color: white;
+    text-decoration: none;
+}
+#h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.head4{
+    display: flex;
+    margin-top: 50px;
+}
+.head4 i{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.head4a{
+    border: 1px solid black;
+    margin-left: 220px;
+    height: 240px;
+    width: 20%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+}
+.head4 h2{
+    margin-top: 15px;
+    font-size: 28px;
+    margin-left: 20px;
+}
+.head4 p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 94%;
+}
+.head4 h5{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.head4b{
+    border: 1px solid black;
+    margin-left: 30px;
+    width: 20%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    height: 240px;
+}
+
+.head4c{
+    border: 1px solid black;
+    margin-left: 30px;
+    width: 20%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    height: 240px;
+}
+
+
+.head5{
+    display: flex;
+    border: 1px solid white;
+    margin-top: 50px;
+    height: 450px;
+    background-color: #F3F4F8;
+}
+.head5a{
+    margin-left: 130px;
+    width: 20%;
+}
+.head5a h3{
+    font-size: 55px;
+    margin-top: 30px;
+}
+.head5a p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 30px;
+}
+
+
+.head5b{
+        margin-top: 45px;
+        margin-left: 50px;
+}
+.head5b h2{
+    margin-left: 28px;
+}
+.head5b ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.head5b a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+}
+.head5b a:hover{
+    color: blue;
+}
+
+.head5b{
+    margin-left: 30px;
+    text-align: justify;
+}
+.head5c{
+    margin-left: 100px;
+    width: 20%;
+    margin-top: 50px;
+}
+.head5c p{
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 30px;
+}
+.head5c input{
+    padding: 18px;
+    margin-top: 30px;
+    width: 110%;
+    background-color: white;
+}
+.an{
+    width: 40%;
+    padding: 5px;
+    margin-top: -58px;
+    margin-left: 190px;
+}
+.head5c button{
+    padding: 8px;
+    width: 90%;
+    background-color: blue;
+    border-style: none;
+    border-radius: 10px;
+}
+.head5c button a{
+    text-decoration: none;
+    color: white;
+}
+.head5c i{
+    font-size: 40px;
+    margin-left: 10px;
+    color: black;
+    margin-top: 30px;
+}
+
+.headand{
+    border: 1px solid white;
+    background-color: #F3F4F8;
+}
+.headand h4{
+    margin-left: 500px;
+    margin-top: 20px;
+}
